@@ -1,0 +1,228 @@
+/* CUSTOM FONTS */
+
+
+@font-face {
+	font-family: NeverLetGo;
+	src: url('fonts/NeverLetGo.eot');
+	src: local(NeverLetGo), url('fonts/NeverLetGo.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: DroidSerif;
+	src: url('fonts/DroidSerif-Regular.eot');
+	src: local(DroidSerif), url('fonts/DroidSerif-Regular.ttf') format("truetype");
+}
+
+
+/* BODIES */
+
+
+body {
+	background-color: #FFFFFF;
+	background-image: url('');
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-position: right bottom;
+	font-family: DroidSerif;
+	font-size: 14px;
+	color: #3C3834;
+	cursor: default;
+}
+
+	body.header {
+		font-family: NeverLetGo;
+		text-align: center;
+		background-color: #3C3834;
+		color: #E5E0D8;
+		background-image: none;
+	}
+
+	body.sidebar {
+		background-color: #F3F3E3;
+		background-image:url('');
+		background-position: bottom right;
+		background-attachment:fixed;
+		background-repeat: repeat;
+		font-size: 11px;
+		font-family: DroidSerif;
+		color: #000000;
+	}
+
+	body.music {
+		background-color: #EAC224;
+		background-image: url('images/bird.jpg');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: left top;
+		font-size: 12px;
+		color: #000000;
+		padding-top: 103px;
+	}
+
+	body.links {
+		background-color: #B6CEE4;
+		background-image: url('images/unicorn.gif');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right bottom;
+		font-size: 14px;
+		color: #707FA5;
+	}
+
+	body.profile {
+		background-color: #FFFFFF;
+		background-image: url('images/paper_background.jpg');
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: left top;
+		color: #000000;
+		padding: 4px 10%;
+	}
+
+	body.fav {
+		background-color: #000000;
+		background-image: url(images/kon.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right bottom;
+		color: #FFFFEE;
+		text-align: justify;
+		padding-right: 50%;
+		padding-top: 10px;
+	}
+
+/* LINKS */
+
+
+a:link,
+a:visited,
+a:active {
+	color: #FC6A96;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3C3834;
+	text-decoration: none;
+	background-color: #FFFF00;
+	cursor: help;
+}
+
+a.nav:link,
+a.nav:visited,
+a.nav:active {
+	color: #F3F3E3;
+	display:block;
+	background-color:#83604F;
+	margin: 2px;
+	padding-left: 5px;
+	font-size:8pt;
+}
+
+a.nav:hover {
+	background:#3C3834;
+}
+
+a.x:link,
+a.x:visited,
+a.x:active {
+	color: #F3F4B2;
+	text-decoration: none;
+}
+
+a.x:hover {
+	color: #C9E4C0;
+	background-color: #707FA5;
+}
+
+table {border: 1px solid #EAC224; font-size: 12px;}
+th {border: 1px solid #EAC224; background-color: #000000; color: #FFFFFF; text-transform: uppercase;}
+tr {border: 1px solid #EAC224;}
+td {border: 1px solid #EAC224; background-color: #FFFFFF;}
+
+table.gal {border: 0px solid white; font-size: 11px; border-spacing: 0px;}
+th.gal {border-top: 0px solid white; border-right: 1px solid white; border-bottom: 0px solid white; border-left: 1px solid white; font-weight: normal; text-transform: none;}
+tr.gal {border: 0px solid white;}
+td.gal {border: 0px solid white; background-color: #FFFFFF; padding: 1px;}
+
+/* IMAGES */
+
+img {
+	border: 0px;
+}
+
+	img.dash {
+		padding: 5px 5px 5px 5px;
+		border: 1px dashed #83604F;
+	}
+
+	a:hover img {
+		border: 0px;
+		filter:alpha(opacity=80); /*IE*/
+		opacity:0.8;
+	}
+
+
+b {
+
+}
+
+	b.up {
+		text-transform: uppercase;
+	}
+
+h1 {
+
+}
+
+	h1.home {
+		font-size: 40px;
+		font-family: NeverLetGo;
+		text-align: center;
+	}
+
+h3 {
+	font-size: 25px;
+	font-family: Serif, Times New Roman;
+	font-weight: bold;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-style: oblique;
+
+}
+
+pre {
+	font-family: DroidSerif;
+	color: #3C3834;
+	font-size: 10px;
+}
+
+p {
+	text-align: justify;
+	text-indent: 20%;
+}
+
+	p.sidebar {
+		font-size: 11px;
+		text-indent: 0px;
+	}
+
+	p.sideheader {
+		color: #3C3834;
+		font-family: NeverLetGo;
+		font-size: 20px;
+		border-bottom: 1px dashed #3C3834;
+		text-align: right;
+		letter-spacing: 2px;
+		padding: 0 0 0 0;
+		text-transform: lowercase;
+	}
+
+	p.info {
+		text-align: justify;
+	}
+
+	ul {
+		padding: 0px;
+		margin: 0 0 0 30px;
+	}
